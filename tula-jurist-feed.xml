@@ -1,191 +1,272 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-07-08 12:00">
-    <shop>
-        <name>Юрист Тула - Правовая защита</name>
-        <company>ООО "Тульская юридическая практика"</company>
-        <url>https://tula-jurist.ru</url>
-        <currencies>
-            <currency id="RUB" rate="1"/>
-        </currencies>
-        <offers>
-            <!-- Семейное право -->
-            <offer id="family_divorce_001" available="true">
-                <name>Расторжение брака (развод) через суд и ЗАГС</name>
-                <price>3500</price>
-                <currencyId>RUB</currencyId>
-                <url>https://tula-jurist.ru/rastorzhenie-braka</url>
-                <description>Сопровождение процедуры развода: подготовка иска, представление интересов в суде, раздел совместно нажитого имущества. Полное юридическое сопровождение.</description>
-                <region>Тульская область</region>
-            </offer>
-            <!-- Алименты -->
-            <offer id="family_alimony_002" available="true">
-                <name>Взыскание алиментов на ребенка и супруга</name>
-                <price>3000</price>
-                <currencyId>RUB</currencyId>
-                <url>https://tula-jurist.ru/alimenty</url>
-                <description>Составление заявления о выдаче судебного приказа или искового заявления о взыскании алиментов в твердой сумме. Помощь в сборе документов.</description>
-                <region>Тульская область</region>
-            </offer>
-            <!-- Определение места жительства ребенка -->
-            <offer id="family_child_place_003" available="true">
-                <name>Определение места жительства ребенка при разводе</name>
-                <price>5000</price>
-                <currencyId>RUB</currencyId>
-                <url>https://tula-jurist.ru/opredelenie-mesta-zhitelstva-rebenka</url>
-                <description>Составление иска об определении места жительства, подготовка акта обследования жилья, представление интересов в суде с учетом мнения органов опеки.</description>
-                <region>Тульская область</region>
-            </offer>
-            <!-- Определение порядка общения с ребенком -->
-            <offer id="family_child_visit_004" available="true">
-                <name>Определение порядка общения с ребенком (отдельно проживающим родителем)</name>
-                <price>4000</price>
-                <currencyId>RUB</currencyId>
-                <url>https://tula-jurist.ru/opredelenie-poryadka-obscheniya-s-rebenkom</url>
-                <description>Составление искового заявления об установлении графика встреч, ночевок и выходных дней. Учет графика работы и обучения ребенка.</description>
-                <region>Тульская область</region>
-            </offer>
-            <!-- Установление отцовства -->
-            <offer id="family_paternity_005" available="true">
-                <name>Установление отцовства (в судебном порядке)</name>
-                <price>4500</price>
-                <currencyId>RUB</currencyId>
-                <url>https://tula-jurist.ru/ustanovlenie-otcovstva</url>
-                <description>Помощь в подаче иска, назначение генетической экспертизы, изменение актовой записи в ЗАГС. Для взыскания алиментов и получения наследства.</description>
-                <region>Тульская область</region>
-            </offer>
-            <!-- Раздел имущества -->
-            <offer id="family_property_006" available="true">
-                <name>Раздел совместно нажитого имущества супругов</name>
-                <price>6000</price>
-                <currencyId>RUB</currencyId>
-                <url>https://tula-jurist.ru/razdel-sovmestno-nazhitogo-imuscestva</url>
-                <description>Раздел квартир, машин, бизнеса и долгов. Определение долей, составление мирового соглашения или иска в суд. Защита интересов.</description>
-                <region>Тульская область</region>
-            </offer>
-            <!-- Наследство -->
-            <offer id="inherit_consult_007" available="true">
-                <name>Консультация по вопросам наследства (первичный прием)</name>
-                <price>3000</price>
-                <currencyId>RUB</currencyId>
-                <url>https://tula-jurist.ru/konsultaciya-po-voprosam-nasledstva</url>
-                <description>Первичная консультация по очередности наследников, долям, выделу супружеской доли. Анализ документов и перспектив дела.</description>
-                <region>Тульская область</region>
-            </offer>
-            <offer id="inherit_accept_008" available="true">
-                <name>Принятие наследства (подача заявления нотариусу)</name>
-                <price>5000</price>
-                <currencyId>RUB</currencyId>
-                <url>https://tula-jurist.ru/prinyatie-nasledstva-v-tule</url>
-                <description>Помощь в сборе документов для нотариуса, составление заявления о принятии наследства, подача в нотариальную контору Тулы.</description>
-                <region>Тульская область</region>
-            </offer>
-            <offer id="inherit_restore_009" available="true">
-                <name>Восстановление срока принятия наследства (пропуск 6 месяцев)</name>
-                <price>7000</price>
-                <currencyId>RUB</currencyId>
-                <url>https://tula-jurist.ru/vosstanovlenie-sroka-prinyatiya-nasledstva</url>
-                <description>Составление искового заявления о восстановлении срока и признании права на наследство. Представление интересов в районном суде.</description>
-                <region>Тульская область</region>
-            </offer>
-            <offer id="inherit_challenge_010" available="true">
-                <name>Оспаривание завещания в судебном порядке</name>
-                <price>8000</price>
-                <currencyId>RUB</currencyId>
-                <url>https://tula-jurist.ru/osparivanie-zavescaniya</url>
-                <description>Признание завещания недействительным (недееспособность, пороки составления). Судебная экспертиза почерка, представление интересов.</description>
-                <region>Тульская область</region>
-            </offer>
-            <!-- Уголовное право (УДО) -->
-            <offer id="criminal_udo_011" available="true">
-                <name>Составление ходатайства об УДО (условно-досрочное освобождение)</name>
-                <price>7000</price>
-                <currencyId>RUB</currencyId>
-                <url>https://tula-jurist.ru/udo</url>
-                <description>Сбор характеристик, справок о погашении взысканий, составление мотивированного ходатайства в суд. Помощь на судебном заседании.</description>
-                <region>Тульская область</region>
-            </offer>
-            <offer id="criminal_udo_apel_012" available="true">
-                <name>Апелляционная жалоба на отказ в УДО</name>
-                <price>5000</price>
-                <currencyId>RUB</currencyId>
-                <url>https://tula-jurist.ru/udo-apellyaciya</url>
-                <description>Обжалование решения суда об отказе в УДО в вышестоящий суд (Тульский областной). Анализ причин отказа и обоснование жалобы.</description>
-                <region>Тульская область</region>
-            </offer>
-            <offer id="criminal_udo_kass_013" available="true">
-                <name>Кассационная жалоба по решению об УДО</name>
-                <price>6000</price>
-                <currencyId>RUB</currencyId>
-                <url>https://tula-jurist.ru/udo-kassaciya</url>
-                <description>Подготовка кассационной жалобы в суд кассационной инстанции на вступившее в силу решение по УДО.</description>
-                <region>Тульская область</region>
-            </offer>
-            <!-- Жилищные споры -->
-            <offer id="property_claim_014" available="true">
-                <name>Признание права собственности на недвижимость (в суде)</name>
-                <price>6000</price>
-                <currencyId>RUB</currencyId>
-                <url>https://tula-jurist.ru/priznanie-prava-sobstvennosti</url>
-                <description>Признание права на самовольную постройку, гараж, дачу. Подготовка техплана, искового заявления, представление в судах Тулы.</description>
-                <region>Тульская область</region>
-            </offer>
-            <offer id="property_deregister_015" available="true">
-                <name>Снятие граждан с регистрации (выписка из квартиры)</name>
-                <price>4000</price>
-                <currencyId>RUB</currencyId>
-                <url>https://tula-jurist.ru/snyatie-grazhdan-s-registracii</url>
-                <description>Выписка через суд бывших членов семьи, лиц, отбывающих наказание. Прекращение права пользования жилым помещением.</description>
-                <region>Тульская область</region>
-            </offer>
-            <offer id="property_transaction_016" available="true">
-                <name>Юридическое сопровождение сделок с недвижимостью</name>
-                <price>5000</price>
-                <currencyId>RUB</currencyId>
-                <url>https://tula-jurist.ru/soprovozhdenie-sdelok-s-nedvizhimostiy</url>
-                <description>Проверка чистоты квартиры (история переходов), составление договора купли-продажи, подача документов в Росреестр.</description>
-                <region>Тульская область</region>
-            </offer>
-            <offer id="land_dispute_017" available="true">
-                <name>Земельные споры (установление границ, сервитут)</name>
-                <price>5500</price>
-                <currencyId>RUB</currencyId>
-                <url>https://tula-jurist.ru/zemelnye-spory</url>
-                <description>Оспаривание границ участка (межевание), устранение реестровых ошибок в ЕГРН, установление права ограниченного пользования (сервитут).</description>
-                <region>Тульская область</region>
-            </offer>
-            <!-- Защита прав потребителей -->
-            <offer id="consumer_general_018" available="true">
-                <name>Защита прав потребителей (возврат товара, услуг)</name>
-                <price>4000</price>
-                <currencyId>RUB</currencyId>
-                <url>https://tula-jurist.ru/zascita-prav-potrebitelei</url>
-                <description>Возврат денег за некачественный товар, расторжение договора с автосалоном или фитнес-клубом. Досудебная претензия и иск в суд.</description>
-                <region>Тульская область</region>
-            </offer>
-            <offer id="consumer_contract_019" available="true">
-                <name>Споры с продавцами и исполнителями услуг (ЗоЗПП)</name>
-                <price>4500</price>
-                <currencyId>RUB</currencyId>
-                <url>https://tula-jurist.ru/spory-s-prodavcami-i-ispolnitelyami-uslug</url>
-                <description>Составление претензии, иск о взыскании уплаченной суммы, неустойки и морального вреда. Взыскание штрафа 50%.</description>
-                <region>Тульская область</region>
-            </offer>
-            <offer id="consumer_refund_020" available="true">
-                <name>Возврат денежных средств за неоказанные услуги</name>
-                <price>3500</price>
-                <currencyId>RUB</currencyId>
-                <url>https://tula-jurist.ru/vozvrat-sredstv</url>
-                <description>Расторжение договора и возврат предоплаты за обучение, туры, ремонт. Составление претензии и искового заявления.</description>
-                <region>Тульская область</region>
-            </offer>
-            <offer id="docs_claims_021" available="true">
-                <name>Составление исков, жалоб, заявлений и ходатайств</name>
-                <price>3000</price>
-                <currencyId>RUB</currencyId>
-                <url>https://tula-jurist.ru/sostavlenie-zhalob</url>
-                <description>Профессиональная подготовка процессуальных документов любой сложности: иски, апелляции, кассации, ходатайства, претензии.</description>
-                <region>Тульская область</region>
-            </offer>
-        </offers>
-    </shop>
+<yml_catalog date="2026-07-08 18:00">
+<shop>
+
+<name>Тула-Юрист Александр Ильин</name>
+<company>Юрист Александр Ильин</company>
+<url>https://tula-jurist.ru</url>
+
+<categories>
+<category id="1">Юридические услуги</category>
+<category id="2">Семейное право</category>
+<category id="3">Наследство</category>
+<category id="4">Защита прав потребителей</category>
+<category id="5">Недвижимость и жилищные споры</category>
+<category id="6">Уголовное право</category>
+<category id="7">Юридические документы</category>
+</categories>
+
+<offers>
+
+<offer id="001" available="true">
+<url>https://tula-jurist.ru/</url>
+<name>Юрист в Туле Александр Ильин</name>
+<categoryId>1</categoryId>
+<description>
+Юридическая помощь гражданам в Туле. Консультации, подготовка документов, защита интересов в суде и сопровождение правовых вопросов.
+</description>
+</offer>
+
+<offer id="002" available="true">
+<url>https://tula-jurist.ru/semeinye-spory</url>
+<name>Семейные споры в Туле</name>
+<categoryId>2</categoryId>
+<description>
+Юрист по семейным спорам: развод, алименты, раздел имущества, споры о детях и защита прав членов семьи.
+</description>
+</offer>
+
+<offer id="003" available="true">
+<url>https://tula-jurist.ru/rastorzhenie-braka</url>
+<name>Расторжение брака в Туле</name>
+<categoryId>2</categoryId>
+<description>
+Юридическое сопровождение развода, подготовка документов и представительство при расторжении брака.
+</description>
+</offer>
+
+<offer id="004" available="true">
+<url>https://tula-jurist.ru/alimenty</url>
+<name>Алименты в Туле</name>
+<categoryId>2</categoryId>
+<description>
+Помощь юриста по вопросам взыскания алиментов, изменения размера выплат и защиты интересов сторон.
+</description>
+</offer>
+
+<offer id="005" available="true">
+<url>https://tula-jurist.ru/opredelenie-poryadka-obscheniya-s-rebenkom</url>
+<name>Определение порядка общения с ребенком</name>
+<categoryId>2</categoryId>
+<description>
+Юридическая помощь в спорах о порядке общения родителей с детьми и защите интересов ребенка.
+</description>
+</offer>
+
+<offer id="006" available="true">
+<url>https://tula-jurist.ru/opredelenie-mesta-zhitelstva-rebenka</url>
+<name>Определение места жительства ребенка</name>
+<categoryId>2</categoryId>
+<description>
+Сопровождение споров об определении места проживания ребенка с одним из родителей.
+</description>
+</offer>
+
+<offer id="007" available="true">
+<url>https://tula-jurist.ru/ustanovlenie-otcovstva</url>
+<name>Установление отцовства</name>
+<categoryId>2</categoryId>
+<description>
+Юридическая помощь при установлении отцовства, подготовка документов и защита интересов клиента.
+</description>
+</offer>
+
+<offer id="008" available="true">
+<url>https://tula-jurist.ru/razdel-sovmestno-nazhitogo-imuscestva</url>
+<name>Раздел совместно нажитого имущества</name>
+<categoryId>2</categoryId>
+<description>
+Помощь при разделе имущества супругов и защита имущественных прав после прекращения брака.
+</description>
+</offer>
+
+<offer id="009" available="true">
+<url>https://tula-jurist.ru/nasledstvo</url>
+<name>Наследство в Туле</name>
+<categoryId>3</categoryId>
+<description>
+Юридическая помощь по наследственным делам: оформление наследства, споры между наследниками и защита прав наследников.
+</description>
+</offer>
+
+<offer id="010" available="true">
+<url>https://tula-jurist.ru/prinyatie-nasledstva-v-tule</url>
+<name>Принятие наследства в Туле</name>
+<categoryId>3</categoryId>
+<description>
+Помощь при принятии наследства, оформлении документов и защите наследственных прав.
+</description>
+</offer><offer id="011" available="true">
+<url>https://tula-jurist.ru/vosstanovlenie-sroka-prinyatiya-nasledstva</url>
+<name>Восстановление срока принятия наследства</name>
+<categoryId>3</categoryId>
+<description>
+Помощь в восстановлении пропущенного срока принятия наследства и защите прав наследников в судебном порядке.
+</description>
+</offer>
+
+<offer id="012" available="true">
+<url>https://tula-jurist.ru/osparivanie-zavescaniya</url>
+<name>Оспаривание завещания</name>
+<categoryId>3</categoryId>
+<description>
+Юридическая помощь при оспаривании завещания и разрешении наследственных споров.
+</description>
+</offer>
+
+<offer id="013" available="true">
+<url>https://tula-jurist.ru/konsultaciya-po-voprosam-nasledstva</url>
+<name>Консультация по вопросам наследства</name>
+<categoryId>3</categoryId>
+<description>
+Консультация юриста по наследственным вопросам, анализ ситуации и подготовка дальнейших действий.
+</description>
+</offer>
+
+<offer id="014" available="true">
+<url>https://tula-jurist.ru/zascita-prav-potrebitelei</url>
+<name>Защита прав потребителей в Туле</name>
+<categoryId>4</categoryId>
+<description>
+Юридическая помощь потребителям: возврат товара, взыскание денежных средств и защита прав при спорах с организациями.
+</description>
+</offer>
+
+<offer id="015" available="true">
+<url>https://tula-jurist.ru/vozvrat-sredstv</url>
+<name>Возврат денежных средств</name>
+<categoryId>4</categoryId>
+<description>
+Помощь при возврате денежных средств за товары и услуги, подготовка претензий и обращение в суд.
+</description>
+</offer>
+
+<offer id="016" available="true">
+<url>https://tula-jurist.ru/sostavlenie-iskov-i-pretenziy-po-zpp</url>
+<name>Составление исков и претензий по защите прав потребителей</name>
+<categoryId>4</categoryId>
+<description>
+Подготовка претензий, исковых заявлений и других документов для защиты прав потребителей.
+</description>
+</offer>
+
+<offer id="017" available="true">
+<url>https://tula-jurist.ru/spory-s-prodavcami-i-ispolnitelyami-uslug</url>
+<name>Споры с продавцами и исполнителями услуг</name>
+<categoryId>4</categoryId>
+<description>
+Юридическая помощь при спорах с продавцами товаров и исполнителями услуг.
+</description>
+</offer>
+
+<offer id="018" available="true">
+<url>https://tula-jurist.ru/zhilischnye-spory</url>
+<name>Жилищные споры в Туле</name>
+<categoryId>5</categoryId>
+<description>
+Юридическая помощь по жилищным спорам, защита прав собственников и пользователей жилья.
+</description>
+</offer>
+
+<offer id="019" available="true">
+<url>https://tula-jurist.ru/priznanie-prava-sobstvennosti</url>
+<name>Признание права собственности</name>
+<categoryId>5</categoryId>
+<description>
+Помощь в признании права собственности на имущество и защите имущественных интересов.
+</description>
+</offer>
+
+<offer id="020" available="true">
+<url>https://tula-jurist.ru/soprovozhdenie-sdelok-s-nedvizhimostiy</url>
+<name>Сопровождение сделок с недвижимостью</name>
+<categoryId>5</categoryId>
+<description>
+Юридическое сопровождение сделок с недвижимостью, проверка документов и защита интересов клиента.
+</description>
+</offer>
+
+<offer id="021" available="true">
+<url>https://tula-jurist.ru/zemelnye-spory</url>
+<name>Земельные споры</name>
+<categoryId>5</categoryId>
+<description>
+Юридическая помощь по земельным спорам, защита прав владельцев земельных участков.
+</description>
+</offer>
+
+<offer id="022" available="true">
+<url>https://tula-jurist.ru/sostavlenie-iskov</url>
+<name>Составление исковых заявлений</name>
+<categoryId>7</categoryId>
+<description>
+Подготовка исковых заявлений в суд с учетом требований законодательства.
+</description>
+</offer>
+
+<offer id="023" available="true">
+<url>https://tula-jurist.ru/sostavlenie-zhalob</url>
+<name>Составление жалоб</name>
+<categoryId>7</categoryId>
+<description>
+Подготовка жалоб в государственные органы и судебные инстанции.
+</description>
+</offer><offer id="024" available="true">
+<url>https://tula-jurist.ru/sostavlenie-zayavlenij-i-hodatajstv</url>
+<name>Составление заявлений и ходатайств</name>
+<categoryId>7</categoryId>
+<description>
+Подготовка заявлений, ходатайств и процессуальных документов для суда и государственных органов.
+</description>
+</offer>
+
+<offer id="025" available="true">
+<url>https://tula-jurist.ru/udo</url>
+<name>Условно-досрочное освобождение (УДО)</name>
+<categoryId>6</categoryId>
+<description>
+Юридическая помощь по вопросам условно-досрочного освобождения, подготовка документов и защита интересов доверителей.
+</description>
+</offer>
+
+<offer id="026" available="true">
+<url>https://tula-jurist.ru/udo-apellyaciya</url>
+<name>Апелляция по делам об УДО</name>
+<categoryId>6</categoryId>
+<description>
+Подготовка апелляционных жалоб и защита интересов при обжаловании судебных решений по вопросам УДО.
+</description>
+</offer>
+
+<offer id="027" available="true">
+<url>https://tula-jurist.ru/udo-kassaciya</url>
+<name>Кассация по делам об УДО</name>
+<categoryId>6</categoryId>
+<description>
+Юридическая помощь при кассационном обжаловании судебных решений по вопросам условно-досрочного освобождения.
+</description>
+</offer>
+
+<offer id="028" available="true">
+<url>https://tula-jurist.ru/snyatie-grazhdan-s-registracii</url>
+<name>Снятие граждан с регистрационного учета</name>
+<categoryId>5</categoryId>
+<description>
+Юридическая помощь по вопросам снятия граждан с регистрационного учета и защите прав собственников жилья.
+</description>
+</offer>
+
+</offers>
+
+</shop>
 </yml_catalog>
