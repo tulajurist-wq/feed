@@ -20,252 +20,196 @@
 
 <offers>
 
-<offer id="001" available="true">
+<offer id="001">
 <url>https://tula-jurist.ru/</url>
 <name>Юрист в Туле Александр Ильин</name>
 <categoryId>1</categoryId>
-<description>
-Юридическая помощь гражданам в Туле. Консультации, подготовка документов, защита интересов в суде и сопровождение правовых вопросов.
-</description>
+<description>Юридическая помощь гражданам в Туле. Консультации, подготовка документов, защита интересов в суде.</description>
 </offer>
 
-<offer id="002" available="true">
+<offer id="002">
 <url>https://tula-jurist.ru/semeinye-spory</url>
 <name>Семейные споры в Туле</name>
 <categoryId>2</categoryId>
-<description>
-Юрист по семейным спорам: развод, алименты, раздел имущества, споры о детях и защита прав членов семьи.
-</description>
+<description>Юридическая помощь по семейным спорам, защита прав супругов и членов семьи.</description>
 </offer>
 
-<offer id="003" available="true">
+<offer id="003">
 <url>https://tula-jurist.ru/rastorzhenie-braka</url>
 <name>Расторжение брака в Туле</name>
 <categoryId>2</categoryId>
-<description>
-Юридическое сопровождение развода, подготовка документов и защита интересов клиента.
-</description>
+<description>Сопровождение процедуры развода, подготовка документов и защита интересов клиента.</description>
 </offer>
 
-<offer id="004" available="true">
+<offer id="004">
 <url>https://tula-jurist.ru/alimenty</url>
 <name>Алименты в Туле</name>
 <categoryId>2</categoryId>
-<description>
-Помощь юриста по вопросам взыскания алиментов, изменения размера выплат и защиты интересов сторон.
-</description>
+<description>Помощь юриста по вопросам взыскания алиментов и защиты прав родителей и детей.</description>
 </offer>
 
-<offer id="005" available="true">
+<offer id="005">
 <url>https://tula-jurist.ru/opredelenie-poryadka-obscheniya-s-rebenkom</url>
 <name>Определение порядка общения с ребенком</name>
 <categoryId>2</categoryId>
-<description>
-Юридическая помощь в спорах о порядке общения родителей с детьми и защите интересов ребенка.
-</description>
+<description>Юридическая помощь в спорах о порядке общения родителей с детьми.</description>
 </offer>
 
-<offer id="006" available="true">
+<offer id="006">
 <url>https://tula-jurist.ru/opredelenie-mesta-zhitelstva-rebenka</url>
 <name>Определение места жительства ребенка</name>
 <categoryId>2</categoryId>
-<description>
-Сопровождение споров об определении места проживания ребенка с одним из родителей.
-</description>
+<description>Сопровождение споров об определении места проживания ребенка.</description>
 </offer>
 
-<offer id="007" available="true">
+<offer id="007">
 <url>https://tula-jurist.ru/ustanovlenie-otcovstva</url>
 <name>Установление отцовства</name>
 <categoryId>2</categoryId>
-<description>
-Юридическая помощь при установлении отцовства и защите семейных прав.
-</description>
+<description>Юридическая помощь при установлении отцовства и защите семейных прав.</description>
 </offer>
 
-<offer id="008" available="true">
+<offer id="008">
 <url>https://tula-jurist.ru/razdel-sovmestno-nazhitogo-imuscestva</url>
 <name>Раздел совместно нажитого имущества</name>
 <categoryId>2</categoryId>
-<description>
-Помощь при разделе имущества супругов и защите имущественных прав.
-</description>
+<description>Помощь при разделе имущества супругов и защите имущественных прав.</description>
 </offer>
 
-<offer id="009" available="true">
+<offer id="009">
 <url>https://tula-jurist.ru/nasledstvo</url>
 <name>Наследство в Туле</name>
 <categoryId>3</categoryId>
-<description>
-Юридическая помощь по наследственным делам, оформление наследства и защита прав наследников.
-</description>
+<description>Юридическая помощь по наследственным делам и защита прав наследников.</description>
 </offer>
 
-<offer id="010" available="true">
+<offer id="010">
 <url>https://tula-jurist.ru/prinyatie-nasledstva-v-tule</url>
 <name>Принятие наследства в Туле</name>
 <categoryId>3</categoryId>
-<description>
-Помощь при принятии наследства, оформлении документов и защите наследственных прав.
-</description>
-</offer><offer id="011" available="true">
+<description>Помощь при принятии наследства и оформлении наследственных прав.</description>
+</offer><offer id="011">
 <url>https://tula-jurist.ru/vosstanovlenie-sroka-prinyatiya-nasledstva</url>
 <name>Восстановление срока принятия наследства</name>
 <categoryId>3</categoryId>
-<description>
-Помощь в восстановлении пропущенного срока принятия наследства и защите прав наследников в судебном порядке.
-</description>
+<description>Помощь в восстановлении срока принятия наследства и защите прав наследников.</description>
 </offer>
 
-<offer id="012" available="true">
+<offer id="012">
 <url>https://tula-jurist.ru/osparivanie-zavescaniya</url>
 <name>Оспаривание завещания</name>
 <categoryId>3</categoryId>
-<description>
-Юридическая помощь при оспаривании завещания и разрешении наследственных споров.
-</description>
+<description>Юридическая помощь при оспаривании завещания и разрешении наследственных споров.</description>
 </offer>
 
-<offer id="013" available="true">
+<offer id="013">
 <url>https://tula-jurist.ru/konsultaciya-po-voprosam-nasledstva</url>
 <name>Консультация по вопросам наследства</name>
 <categoryId>3</categoryId>
-<description>
-Консультация юриста по наследственным вопросам, анализ ситуации и подготовка дальнейших действий.
-</description>
+<description>Консультация юриста по наследственным вопросам и анализ правовой ситуации.</description>
 </offer>
 
-<offer id="014" available="true">
+<offer id="014">
 <url>https://tula-jurist.ru/zascita-prav-potrebitelei</url>
 <name>Защита прав потребителей в Туле</name>
 <categoryId>4</categoryId>
-<description>
-Юридическая помощь потребителям: возврат товара, взыскание денежных средств и защита прав при спорах с организациями.
-</description>
+<description>Юридическая помощь при спорах с продавцами товаров и исполнителями услуг.</description>
 </offer>
 
-<offer id="015" available="true">
+<offer id="015">
 <url>https://tula-jurist.ru/vozvrat-sredstv</url>
 <name>Возврат денежных средств</name>
 <categoryId>4</categoryId>
-<description>
-Помощь при возврате денежных средств за товары и услуги, подготовка претензий и обращение в суд.
-</description>
+<description>Помощь при возврате денежных средств за товары и услуги, подготовка документов и претензий.</description>
 </offer>
 
-<offer id="016" available="true">
+<offer id="016">
 <url>https://tula-jurist.ru/sostavlenie-iskov-i-pretenziy-po-zpp</url>
 <name>Составление исков и претензий по защите прав потребителей</name>
 <categoryId>4</categoryId>
-<description>
-Подготовка претензий, исковых заявлений и документов для защиты прав потребителей.
-</description>
+<description>Подготовка претензий и исковых заявлений для защиты прав потребителей.</description>
 </offer>
 
-<offer id="017" available="true">
+<offer id="017">
 <url>https://tula-jurist.ru/spory-s-prodavcami-i-ispolnitelyami-uslug</url>
 <name>Споры с продавцами и исполнителями услуг</name>
 <categoryId>4</categoryId>
-<description>
-Юридическая помощь при спорах с продавцами товаров и исполнителями услуг.
-</description>
+<description>Юридическая помощь при конфликтах с организациями, продавцами и исполнителями услуг.</description>
 </offer>
 
-<offer id="018" available="true">
+<offer id="018">
 <url>https://tula-jurist.ru/zhilischnye-spory</url>
 <name>Жилищные споры в Туле</name>
 <categoryId>5</categoryId>
-<description>
-Юридическая помощь по жилищным спорам, защита прав собственников и пользователей жилья.
-</description>
+<description>Юридическая помощь по жилищным спорам, защита прав собственников и пользователей жилья.</description>
 </offer>
 
-<offer id="019" available="true">
+<offer id="019">
 <url>https://tula-jurist.ru/priznanie-prava-sobstvennosti</url>
 <name>Признание права собственности</name>
 <categoryId>5</categoryId>
-<description>
-Помощь в признании права собственности на имущество и защите имущественных интересов.
-</description>
+<description>Помощь в признании права собственности на имущество и защите имущественных прав.</description>
 </offer>
 
-<offer id="020" available="true">
+<offer id="020">
 <url>https://tula-jurist.ru/soprovozhdenie-sdelok-s-nedvizhimostiy</url>
 <name>Сопровождение сделок с недвижимостью</name>
 <categoryId>5</categoryId>
-<description>
-Юридическое сопровождение сделок с недвижимостью, проверка документов и защита интересов клиента.
-</description>
+<description>Юридическое сопровождение сделок с недвижимостью и проверка документов.</description>
 </offer>
 
-<offer id="021" available="true">
+<offer id="021">
 <url>https://tula-jurist.ru/zemelnye-spory</url>
 <name>Земельные споры</name>
 <categoryId>5</categoryId>
-<description>
-Юридическая помощь по земельным спорам, защита прав владельцев земельных участков.
-</description>
+<description>Юридическая помощь по земельным спорам и защита прав владельцев участков.</description>
 </offer>
 
-<offer id="022" available="true">
+<offer id="022">
 <url>https://tula-jurist.ru/sostavlenie-iskov</url>
 <name>Составление исковых заявлений</name>
 <categoryId>7</categoryId>
-<description>
-Подготовка исковых заявлений в суд с учетом требований законодательства.
-</description>
+<description>Подготовка исковых заявлений для обращения в суд.</description>
 </offer>
 
-<offer id="023" available="true">
+<offer id="023">
 <url>https://tula-jurist.ru/sostavlenie-zhalob</url>
 <name>Составление жалоб</name>
 <categoryId>7</categoryId>
-<description>
-Подготовка жалоб в государственные органы и судебные инстанции.
-</description>
-</offer><offer id="024" available="true">
+<description>Подготовка жалоб в государственные органы и судебные инстанции.</description>
+</offer><offer id="024">
 <url>https://tula-jurist.ru/sostavlenie-zayavlenij-i-hodatajstv</url>
 <name>Составление заявлений и ходатайств</name>
 <categoryId>7</categoryId>
-<description>
-Подготовка заявлений, ходатайств и процессуальных документов для суда и государственных органов.
-</description>
+<description>Подготовка заявлений, ходатайств и процессуальных документов для суда и государственных органов.</description>
 </offer>
 
-<offer id="025" available="true">
+<offer id="025">
 <url>https://tula-jurist.ru/udo</url>
 <name>Условно-досрочное освобождение (УДО)</name>
 <categoryId>6</categoryId>
-<description>
-Юридическая помощь по вопросам условно-досрочного освобождения, подготовка документов и защита интересов доверителей.
-</description>
+<description>Юридическая помощь по вопросам условно-досрочного освобождения, подготовка документов и защита интересов доверителей.</description>
 </offer>
 
-<offer id="026" available="true">
+<offer id="026">
 <url>https://tula-jurist.ru/udo-apellyaciya</url>
 <name>Апелляция по делам об УДО</name>
 <categoryId>6</categoryId>
-<description>
-Подготовка апелляционных жалоб и защита интересов при обжаловании судебных решений по вопросам УДО.
-</description>
+<description>Подготовка апелляционных жалоб и защита интересов при обжаловании судебных решений по вопросам УДО.</description>
 </offer>
 
-<offer id="027" available="true">
+<offer id="027">
 <url>https://tula-jurist.ru/udo-kassaciya</url>
 <name>Кассация по делам об УДО</name>
 <categoryId>6</categoryId>
-<description>
-Юридическая помощь при кассационном обжаловании судебных решений по вопросам условно-досрочного освобождения.
-</description>
+<description>Юридическая помощь при кассационном обжаловании судебных решений по вопросам условно-досрочного освобождения.</description>
 </offer>
 
-<offer id="028" available="true">
+<offer id="028">
 <url>https://tula-jurist.ru/snyatie-grazhdan-s-registracii</url>
 <name>Снятие граждан с регистрационного учета</name>
 <categoryId>5</categoryId>
-<description>
-Юридическая помощь по вопросам снятия граждан с регистрационного учета и защите прав собственников жилья.
-</description>
+<description>Юридическая помощь по вопросам снятия граждан с регистрационного учета и защите прав собственников жилья.</description>
 </offer>
 
 </offers>
