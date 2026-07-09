@@ -1,3 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<yml_catalog date="2026-07-09">
+
+<shop>
+
+<name>Тула-Юрист Александр Ильин</name>
+<company>Юрист Александр Ильин</company>
+<url>https://tula-jurist.ru</url>
+<phone>+79029001911</phone>
+<email>tula.jurist@gmail.com</email>
+
+<categories>
+<category id="1">Юридические услуги</category>
+</categories>
+
+<sets>
+<set id="tula-jurist">
+<name>Юридические услуги в Туле</name>
+<url>https://tula-jurist.ru/</url>
+</set>
+</sets>
+
 <offers>
 
 <offer id="udo">
@@ -158,7 +181,10 @@
 <param name="Регион">Тула</param>
 <param name="Конверсия">1</param>
 
-</offer><offer id="konsultaciya-po-nasledstvu">
+</offer>
+
+
+<offer id="konsultaciya-po-nasledstvu">
 
 <name>Юрист Александр Ильин</name>
 
@@ -178,10 +204,7 @@
 <param name="Регион">Тула</param>
 <param name="Конверсия">1</param>
 
-</offer>
-
-
-<offer id="semeinye-spory">
+</offer><offer id="semeinye-spory">
 
 <name>Юрист Александр Ильин</name>
 
@@ -339,30 +362,7 @@
 <param name="Регион">Тула</param>
 <param name="Конверсия">1</param>
 
-</offer><offer id="zhilishchnye-spory">
-
-<name>Юрист Александр Ильин</name>
-
-<url>https://tula-jurist.ru/zhilischnye-spory</url>
-
-<set-ids>tula-jurist</set-ids>
-
-<categoryId>1</categoryId>
-
-<description>
-Юридическая помощь по жилищным спорам, защита прав собственников и пользователей жилья.
-</description>
-
-<param name="Исполнитель">Юрист Александр Ильин</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тула</param>
-<param name="Конверсия">1</param>
-
-</offer>
-
-
-<offer id="priznanie-prava-sobstvennosti">
+</offer><offer id="priznanie-prava-sobstvennosti">
 
 <name>Юрист Александр Ильин</name>
 
@@ -497,10 +497,7 @@
 <param name="Регион">Тула</param>
 <param name="Конверсия">1</param>
 
-</offer>
-
-
-</offers>
+</offer></offers>
 
 </shop>
 
