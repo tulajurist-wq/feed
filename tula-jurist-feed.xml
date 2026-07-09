@@ -1,33 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<yml_catalog date="2026-07-09">
-
-<shop>
-
-<name>Тула-Юрист Александр Ильин</name>
-<company>Юрист Александр Ильин</company>
-<url>https://tula-jurist.ru</url>
-<phone>+79029001911</phone>
-<email>tula.jurist@gmail.com</email>
-
-<categories>
-<category id="1">Юридические услуги</category>
-</categories>
-
-<sets>
-
-<set id="tula-jurist">
-<name>Юридические услуги в Туле</name>
-<url>https://tula-jurist.ru/</url>
-</set>
-
-</sets>
-
 <offers>
 
 <offer id="udo">
 
-<name>Условно-досрочное освобождение</name>
+<name>Юрист Александр Ильин</name>
 
 <url>https://tula-jurist.ru/udo</url>
 
@@ -40,7 +15,6 @@
 </description>
 
 <param name="Исполнитель">Юрист Александр Ильин</param>
-<param name="Рейтинг">5</param>
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тула</param>
@@ -51,7 +25,7 @@
 
 <offer id="udo-apellyaciya">
 
-<name>Апелляция по отказу в УДО</name>
+<name>Юрист Александр Ильин</name>
 
 <url>https://tula-jurist.ru/udo-apellyaciya</url>
 
@@ -64,7 +38,6 @@
 </description>
 
 <param name="Исполнитель">Юрист Александр Ильин</param>
-<param name="Рейтинг">5</param>
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тула</param>
@@ -75,7 +48,7 @@
 
 <offer id="udo-kassaciya">
 
-<name>Кассация по делам об УДО</name>
+<name>Юрист Александр Ильин</name>
 
 <url>https://tula-jurist.ru/udo-kassaciya</url>
 
@@ -88,7 +61,6 @@
 </description>
 
 <param name="Исполнитель">Юрист Александр Ильин</param>
-<param name="Рейтинг">5</param>
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тула</param>
@@ -99,7 +71,7 @@
 
 <offer id="nasledstvo">
 
-<name>Юрист по наследству</name>
+<name>Юрист Александр Ильин</name>
 
 <url>https://tula-jurist.ru/nasledstvo</url>
 
@@ -112,7 +84,6 @@
 </description>
 
 <param name="Исполнитель">Юрист Александр Ильин</param>
-<param name="Рейтинг">5</param>
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тула</param>
@@ -123,7 +94,7 @@
 
 <offer id="prinyatie-nasledstva">
 
-<name>Принятие наследства</name>
+<name>Юрист Александр Ильин</name>
 
 <url>https://tula-jurist.ru/prinyatie-nasledstva-v-tule</url>
 
@@ -136,15 +107,17 @@
 </description>
 
 <param name="Исполнитель">Юрист Александр Ильин</param>
-<param name="Рейтинг">5</param>
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тула</param>
 <param name="Конверсия">1</param>
 
-</offer><offer id="vosstanovlenie-sroka-prinyatiya-nasledstva">
+</offer>
 
-<name>Восстановление срока принятия наследства</name>
+
+<offer id="vosstanovlenie-sroka-prinyatiya-nasledstva">
+
+<name>Юрист Александр Ильин</name>
 
 <url>https://tula-jurist.ru/vosstanovlenie-sroka-prinyatiya-nasledstva</url>
 
@@ -157,7 +130,6 @@
 </description>
 
 <param name="Исполнитель">Юрист Александр Ильин</param>
-<param name="Рейтинг">5</param>
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тула</param>
@@ -168,7 +140,7 @@
 
 <offer id="osparivanie-zavescaniya">
 
-<name>Оспаривание завещания</name>
+<name>Юрист Александр Ильин</name>
 
 <url>https://tula-jurist.ru/osparivanie-zavescaniya</url>
 
@@ -181,18 +153,14 @@
 </description>
 
 <param name="Исполнитель">Юрист Александр Ильин</param>
-<param name="Рейтинг">5</param>
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тула</param>
 <param name="Конверсия">1</param>
 
-</offer>
+</offer><offer id="konsultaciya-po-nasledstvu">
 
-
-<offer id="konsultaciya-po-nasledstvu">
-
-<name>Консультация по вопросам наследства</name>
+<name>Юрист Александр Ильин</name>
 
 <url>https://tula-jurist.ru/konsultaciya-po-voprosam-nasledstva</url>
 
@@ -205,7 +173,6 @@
 </description>
 
 <param name="Исполнитель">Юрист Александр Ильин</param>
-<param name="Рейтинг">5</param>
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тула</param>
@@ -216,7 +183,7 @@
 
 <offer id="semeinye-spory">
 
-<name>Семейные споры</name>
+<name>Юрист Александр Ильин</name>
 
 <url>https://tula-jurist.ru/semeinye-spory</url>
 
@@ -229,7 +196,6 @@
 </description>
 
 <param name="Исполнитель">Юрист Александр Ильин</param>
-<param name="Рейтинг">5</param>
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тула</param>
@@ -240,7 +206,7 @@
 
 <offer id="rastorzhenie-braka">
 
-<name>Расторжение брака</name>
+<name>Юрист Александр Ильин</name>
 
 <url>https://tula-jurist.ru/rastorzhenie-braka</url>
 
@@ -253,7 +219,6 @@
 </description>
 
 <param name="Исполнитель">Юрист Александр Ильин</param>
-<param name="Рейтинг">5</param>
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тула</param>
@@ -264,7 +229,7 @@
 
 <offer id="alimenty">
 
-<name>Взыскание алиментов</name>
+<name>Юрист Александр Ильин</name>
 
 <url>https://tula-jurist.ru/alimenty</url>
 
@@ -277,7 +242,6 @@
 </description>
 
 <param name="Исполнитель">Юрист Александр Ильин</param>
-<param name="Рейтинг">5</param>
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тула</param>
@@ -288,7 +252,7 @@
 
 <offer id="ustanovlenie-otcovstva">
 
-<name>Установление отцовства</name>
+<name>Юрист Александр Ильин</name>
 
 <url>https://tula-jurist.ru/ustanovlenie-otcovstva</url>
 
@@ -301,7 +265,6 @@
 </description>
 
 <param name="Исполнитель">Юрист Александр Ильин</param>
-<param name="Рейтинг">5</param>
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тула</param>
@@ -312,7 +275,7 @@
 
 <offer id="opredelenie-mesta-zhitelstva-rebenka">
 
-<name>Определение места жительства ребенка</name>
+<name>Юрист Александр Ильин</name>
 
 <url>https://tula-jurist.ru/opredelenie-mesta-zhitelstva-rebenka</url>
 
@@ -325,7 +288,6 @@
 </description>
 
 <param name="Исполнитель">Юрист Александр Ильин</param>
-<param name="Рейтинг">5</param>
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тула</param>
@@ -336,7 +298,7 @@
 
 <offer id="opredelenie-poryadka-obshcheniya-s-rebenkom">
 
-<name>Определение порядка общения с ребенком</name>
+<name>Юрист Александр Ильин</name>
 
 <url>https://tula-jurist.ru/opredelenie-poryadka-obscheniya-s-rebenkom</url>
 
@@ -349,15 +311,17 @@
 </description>
 
 <param name="Исполнитель">Юрист Александр Ильин</param>
-<param name="Рейтинг">5</param>
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тула</param>
 <param name="Конверсия">1</param>
 
-</offer><offer id="zhilishchnye-spory">
+</offer>
 
-<name>Жилищные споры</name>
+
+<offer id="zhilishchnye-spory">
+
+<name>Юрист Александр Ильин</name>
 
 <url>https://tula-jurist.ru/zhilischnye-spory</url>
 
@@ -370,7 +334,26 @@
 </description>
 
 <param name="Исполнитель">Юрист Александр Ильин</param>
-<param name="Рейтинг">5</param>
+<param name="Число отзывов">4</param>
+<param name="Годы опыта">10</param>
+<param name="Регион">Тула</param>
+<param name="Конверсия">1</param>
+
+</offer><offer id="zhilishchnye-spory">
+
+<name>Юрист Александр Ильин</name>
+
+<url>https://tula-jurist.ru/zhilischnye-spory</url>
+
+<set-ids>tula-jurist</set-ids>
+
+<categoryId>1</categoryId>
+
+<description>
+Юридическая помощь по жилищным спорам, защита прав собственников и пользователей жилья.
+</description>
+
+<param name="Исполнитель">Юрист Александр Ильин</param>
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тула</param>
@@ -381,7 +364,7 @@
 
 <offer id="priznanie-prava-sobstvennosti">
 
-<name>Признание права собственности</name>
+<name>Юрист Александр Ильин</name>
 
 <url>https://tula-jurist.ru/priznanie-prava-sobstvennosti</url>
 
@@ -394,7 +377,6 @@
 </description>
 
 <param name="Исполнитель">Юрист Александр Ильин</param>
-<param name="Рейтинг">5</param>
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тула</param>
@@ -405,7 +387,7 @@
 
 <offer id="soprovozhdenie-sdelok-s-nedvizhimostiy">
 
-<name>Сопровождение сделок с недвижимостью</name>
+<name>Юрист Александр Ильин</name>
 
 <url>https://tula-jurist.ru/soprovozhdenie-sdelok-s-nedvizhimostiy</url>
 
@@ -418,7 +400,6 @@
 </description>
 
 <param name="Исполнитель">Юрист Александр Ильин</param>
-<param name="Рейтинг">5</param>
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тула</param>
@@ -429,7 +410,7 @@
 
 <offer id="zemelnye-spory">
 
-<name>Земельные споры</name>
+<name>Юрист Александр Ильин</name>
 
 <url>https://tula-jurist.ru/zemelnye-spory</url>
 
@@ -442,7 +423,6 @@
 </description>
 
 <param name="Исполнитель">Юрист Александр Ильин</param>
-<param name="Рейтинг">5</param>
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тула</param>
@@ -453,7 +433,7 @@
 
 <offer id="zascita-prav-potrebitelei">
 
-<name>Защита прав потребителей</name>
+<name>Юрист Александр Ильин</name>
 
 <url>https://tula-jurist.ru/zascita-prav-potrebitelei</url>
 
@@ -466,7 +446,6 @@
 </description>
 
 <param name="Исполнитель">Юрист Александр Ильин</param>
-<param name="Рейтинг">5</param>
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тула</param>
@@ -477,7 +456,7 @@
 
 <offer id="sostavlenie-iskov">
 
-<name>Составление исковых заявлений</name>
+<name>Юрист Александр Ильин</name>
 
 <url>https://tula-jurist.ru/sostavlenie-iskov</url>
 
@@ -490,7 +469,6 @@
 </description>
 
 <param name="Исполнитель">Юрист Александр Ильин</param>
-<param name="Рейтинг">5</param>
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тула</param>
@@ -501,7 +479,7 @@
 
 <offer id="sostavlenie-zhalob">
 
-<name>Составление жалоб</name>
+<name>Юрист Александр Ильин</name>
 
 <url>https://tula-jurist.ru/sostavlenie-zhalob</url>
 
@@ -514,7 +492,6 @@
 </description>
 
 <param name="Исполнитель">Юрист Александр Ильин</param>
-<param name="Рейтинг">5</param>
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тула</param>
