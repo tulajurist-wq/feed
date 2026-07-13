@@ -15,13 +15,13 @@
 
 <category id="1">Юридические услуги</category>
 
-<category id="2" parentId="1">Условно-досрочное освобождение</category>
-<category id="3" parentId="1">Семейные споры</category>
-<category id="4" parentId="1">Наследство</category>
-<category id="5" parentId="1">Жилищные споры</category>
-<category id="6" parentId="1">Защита прав потребителей</category>
-<category id="7" parentId="1">Недвижимость</category>
-<category id="8" parentId="1">Юридические документы</category>
+<category id="2">Условно-досрочное освобождение</category>
+<category id="3">Семейные споры</category>
+<category id="4">Наследство</category>
+<category id="5">Жилищные споры</category>
+<category id="6">Защита прав потребителей</category>
+<category id="7">Недвижимость</category>
+<category id="8">Юридические документы</category>
 
 </categories>
 
@@ -38,15 +38,10 @@
 <categoryId>2</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -61,15 +56,10 @@
 <categoryId>2</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -84,15 +74,10 @@
 <categoryId>2</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -107,15 +92,10 @@
 <categoryId>3</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -130,15 +110,10 @@
 <categoryId>3</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -153,15 +128,10 @@
 <categoryId>3</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -169,22 +139,17 @@
 
 <offer id="7">
 
-<name>Взыскание алиментов</name>
+<name>Алименты</name>
 
 <url>https://tula-jurist.ru/alimenty</url>
 
 <categoryId>3</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -199,15 +164,10 @@
 <categoryId>3</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -222,15 +182,10 @@
 <categoryId>3</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -245,15 +200,10 @@
 <categoryId>3</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer><offer id="11">
 
@@ -264,15 +214,10 @@
 <categoryId>4</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -287,15 +232,10 @@
 <categoryId>4</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -310,15 +250,10 @@
 <categoryId>4</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -333,15 +268,10 @@
 <categoryId>4</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -356,15 +286,10 @@
 <categoryId>4</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -379,15 +304,10 @@
 <categoryId>5</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -402,15 +322,10 @@
 <categoryId>5</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -425,15 +340,10 @@
 <categoryId>5</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -448,15 +358,10 @@
 <categoryId>7</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -471,15 +376,10 @@
 <categoryId>7</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer><offer id="21">
 
@@ -490,15 +390,10 @@
 <categoryId>6</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -513,15 +408,10 @@
 <categoryId>6</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -536,15 +426,10 @@
 <categoryId>6</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -559,15 +444,10 @@
 <categoryId>6</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -582,15 +462,10 @@
 <categoryId>8</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -605,15 +480,10 @@
 <categoryId>8</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -628,15 +498,10 @@
 <categoryId>8</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -651,15 +516,10 @@
 <categoryId>8</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
 
 </offer>
 
@@ -674,18 +534,12 @@
 <categoryId>8</categoryId>
 
 <price>1000</price>
+
 <currencyId>RUB</currencyId>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
 
-<param name="Рейтинг">0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">0</param>
-
 </offer>
-
 
 
 </offers>
