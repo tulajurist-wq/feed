@@ -1,42 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-
 <yml_catalog date="2026-07-13 12:00">
-
 <shop>
 
-<name>Александр Ильин</name>
-
-<company>Тула Юрист</company>
-
+<name>Тула Юрист</name>
+<company>Александр Ильин</company>
 <url>https://tula-jurist.ru</url>
-
 <email>tula.jurist@gmail.com</email>
 
-
 <currencies>
-
 <currency id="RUR" rate="1"/>
-
 </currencies>
-
 
 <categories>
 
 <category id="1">Исполнитель</category>
 
-<category id="2" parentId="1">Условно-досрочное освобождение</category>
-
-<category id="3" parentId="1">Семейные споры</category>
-
-<category id="4" parentId="1">Наследство</category>
-
-<category id="5" parentId="1">Жилищные споры</category>
-
+<category id="2" parentId="1">Семейные споры</category>
+<category id="3" parentId="1">Наследство</category>
+<category id="4" parentId="1">Жилищные споры</category>
+<category id="5" parentId="1">Недвижимость</category>
 <category id="6" parentId="1">Защита прав потребителей</category>
-
-<category id="7" parentId="1">Недвижимость</category>
-
-<category id="8" parentId="1">Юридические документы</category>
+<category id="7" parentId="1">Юридические документы</category>
 
 </categories>
 
@@ -44,40 +28,29 @@
 <sets>
 
 <set id="s1">
-
-<name>Юрист по УДО в Тульской области</name>
-
-<url>https://tula-jurist.ru/udo</url>
-
+<name>Семейные споры в Туле</name>
+<url>https://tula-jurist.ru/semeinye-spory</url>
 </set>
-
 
 <set id="s2">
-
-<name>Семейный юрист в Тульской области</name>
-
-<url>https://tula-jurist.ru/semeinye-spory</url>
-
+<name>Наследственные споры в Туле</name>
+<url>https://tula-jurist.ru/nasledstvo</url>
 </set>
-
 
 <set id="s3">
-
-<name>Юрист по наследству в Тульской области</name>
-
-<url>https://tula-jurist.ru/nasledstvo</url>
-
+<name>Жилищные споры в Туле</name>
+<url>https://tula-jurist.ru/zhilischnye-spory</url>
 </set>
-
 
 <set id="s4">
-
-<name>Юрист по жилищным спорам в Тульской области</name>
-
-<url>https://tula-jurist.ru/zhilischnye-spory</url>
-
+<name>Защита прав потребителей в Туле</name>
+<url>https://tula-jurist.ru/zascita-prav-potrebitelei</url>
 </set>
 
+<set id="s5">
+<name>Юридические документы в Туле</name>
+<url>https://tula-jurist.ru/sostavlenie-zhalob</url>
+</set>
 
 </sets>
 
@@ -85,129 +58,9 @@
 <offers>
 
 
-<offer id="udo001">
+<offer id="family001">
 
-<name>Александр Ильин</name>
-
-<url>https://tula-jurist.ru/udo</url>
-
-<price from="true">1000</price>
-
-<currencyId>RUR</currencyId>
-
-<sales_notes>цена договорная</sales_notes>
-
-<categoryId>2</categoryId>
-
-<set-ids>s1</set-ids>
-
-<picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<description>
-Юридическая помощь по вопросам условно-досрочного освобождения. Подготовка ходатайств об УДО, защита интересов осужденных, обжалование отказов.
-</description>
-
-<adult>false</adult>
-
-<expiry>P5Y</expiry>
-
-<param name="Рейтинг">5.0</param>
-
-<param name="Число отзывов">4</param>
-
-<param name="Годы опыта">10</param>
-
-<param name="Регион">Тульская область</param>
-
-<param name="Конверсия">1.0</param>
-
-</offer>
-
-
-
-<offer id="udo002">
-
-<name>Александр Ильин</name>
-
-<url>https://tula-jurist.ru/udo-apellyaciya</url>
-
-<price from="true">1000</price>
-
-<currencyId>RUR</currencyId>
-
-<sales_notes>цена договорная</sales_notes>
-
-<categoryId>2</categoryId>
-
-<set-ids>s1</set-ids>
-
-<picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<description>
-Обжалование отказа в условно-досрочном освобождении. Подготовка апелляционных жалоб и представление интересов.
-</description>
-
-<adult>false</adult>
-
-<expiry>P5Y</expiry>
-
-<param name="Рейтинг">5.0</param>
-
-<param name="Число отзывов">4</param>
-
-<param name="Годы опыта">10</param>
-
-<param name="Регион">Тульская область</param>
-
-<param name="Конверсия">1.0</param>
-
-</offer>
-
-
-
-<offer id="udo003">
-
-<name>Александр Ильин</name>
-
-<url>https://tula-jurist.ru/udo-kassaciya</url>
-
-<price from="true">1000</price>
-
-<currencyId>RUR</currencyId>
-
-<sales_notes>цена договорная</sales_notes>
-
-<categoryId>2</categoryId>
-
-<set-ids>s1</set-ids>
-
-<picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<description>
-Кассационная жалоба по УДО. Анализ судебного решения, подготовка документов и защита прав доверителя.
-</description>
-
-<adult>false</adult>
-
-<expiry>P5Y</expiry>
-
-<param name="Рейтинг">5.0</param>
-
-<param name="Число отзывов">4</param>
-
-<param name="Годы опыта">10</param>
-
-<param name="Регион">Тульская область</param>
-
-<param name="Конверсия">1.0</param>
-
-</offer>
-
-
-
-<offer id="sem001">
-
-<name>Александр Ильин</name>
+<name>Тула Юрист</name>
 
 <url>https://tula-jurist.ru/semeinye-spory</url>
 
@@ -217,14 +70,14 @@
 
 <sales_notes>цена договорная</sales_notes>
 
-<categoryId>3</categoryId>
+<categoryId>2</categoryId>
 
-<set-ids>s2</set-ids>
+<set-ids>s1</set-ids>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
 
 <description>
-Юридическая помощь по семейным спорам: развод, раздел имущества, алименты, определение места жительства ребенка.
+Юрист по семейным спорам в Туле. Развод, раздел имущества, алименты, споры о детях, представительство в суде.
 </description>
 
 <adult>false</adult>
@@ -232,18 +85,23 @@
 <expiry>P5Y</expiry>
 
 <param name="Рейтинг">5.0</param>
-
 <param name="Число отзывов">4</param>
-
 <param name="Годы опыта">10</param>
-
 <param name="Регион">Тульская область</param>
+<param name="Конверсия">1.935</param>
 
-<param name="Конверсия">1.0</param>
+<param name="Работа по договору">да</param>
+<param name="Наличный расчет">да</param>
+<param name="Безналичный расчет">да</param>
+<param name="Выполняется удаленно">да</param>
 
-</offer><offer id="sem002">
+</offer>
 
-<name>Александр Ильин</name>
+
+
+<offer id="family002">
+
+<name>Тула Юрист</name>
 
 <url>https://tula-jurist.ru/rastorzhenie-braka</url>
 
@@ -253,14 +111,14 @@
 
 <sales_notes>цена договорная</sales_notes>
 
-<categoryId>3</categoryId>
+<categoryId>2</categoryId>
 
-<set-ids>s2</set-ids>
+<set-ids>s1</set-ids>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
 
 <description>
-Юридическое сопровождение расторжения брака. Подготовка документов, консультация и защита интересов в суде.
+Расторжение брака через суд. Подготовка документов и юридическое сопровождение развода.
 </description>
 
 <adult>false</adult>
@@ -268,22 +126,23 @@
 <expiry>P5Y</expiry>
 
 <param name="Рейтинг">5.0</param>
-
 <param name="Число отзывов">4</param>
-
 <param name="Годы опыта">10</param>
-
 <param name="Регион">Тульская область</param>
+<param name="Конверсия">1.935</param>
 
-<param name="Конверсия">1.0</param>
+<param name="Работа по договору">да</param>
+<param name="Наличный расчет">да</param>
+<param name="Безналичный расчет">да</param>
+<param name="Выполняется удаленно">да</param>
 
 </offer>
 
 
 
-<offer id="sem003">
+<offer id="family003">
 
-<name>Александр Ильин</name>
+<name>Тула Юрист</name>
 
 <url>https://tula-jurist.ru/razdel-sovmestno-nazhitogo-imuscestva</url>
 
@@ -293,14 +152,14 @@
 
 <sales_notes>цена договорная</sales_notes>
 
-<categoryId>3</categoryId>
+<categoryId>2</categoryId>
 
-<set-ids>s2</set-ids>
+<set-ids>s1</set-ids>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
 
 <description>
-Раздел совместно нажитого имущества супругов. Подготовка исков, переговоры и представление интересов в суде.
+Раздел совместно нажитого имущества супругов. Подготовка иска и защита интересов в суде.
 </description>
 
 <adult>false</adult>
@@ -308,22 +167,19 @@
 <expiry>P5Y</expiry>
 
 <param name="Рейтинг">5.0</param>
-
 <param name="Число отзывов">4</param>
-
 <param name="Годы опыта">10</param>
-
 <param name="Регион">Тульская область</param>
+<param name="Конверсия">1.935</param>
 
-<param name="Конверсия">1.0</param>
+<param name="Работа по договору">да</param>
+<param name="Наличный расчет">да</param>
+<param name="Безналичный расчет">да</param>
+<param name="Выполняется удаленно">да</param>
 
-</offer>
+</offer><offer id="family004">
 
-
-
-<offer id="sem004">
-
-<name>Александр Ильин</name>
+<name>Тула Юрист</name>
 
 <url>https://tula-jurist.ru/alimenty</url>
 
@@ -333,14 +189,14 @@
 
 <sales_notes>цена договорная</sales_notes>
 
-<categoryId>3</categoryId>
+<categoryId>2</categoryId>
 
-<set-ids>s2</set-ids>
+<set-ids>s1</set-ids>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
 
 <description>
-Взыскание алиментов и защита прав родителей и детей. Подготовка документов и судебное сопровождение.
+Взыскание алиментов. Подготовка документов, обращение в суд, защита интересов клиента.
 </description>
 
 <adult>false</adult>
@@ -348,22 +204,22 @@
 <expiry>P5Y</expiry>
 
 <param name="Рейтинг">5.0</param>
-
 <param name="Число отзывов">4</param>
-
 <param name="Годы опыта">10</param>
-
 <param name="Регион">Тульская область</param>
+<param name="Конверсия">1.935</param>
 
-<param name="Конверсия">1.0</param>
+<param name="Работа по договору">да</param>
+<param name="Наличный расчет">да</param>
+<param name="Безналичный расчет">да</param>
+<param name="Выполняется удаленно">да</param>
 
 </offer>
 
 
+<offer id="family005">
 
-<offer id="sem005">
-
-<name>Александр Ильин</name>
+<name>Тула Юрист</name>
 
 <url>https://tula-jurist.ru/opredelenie-mesta-zhitelstva-rebenka</url>
 
@@ -373,14 +229,14 @@
 
 <sales_notes>цена договорная</sales_notes>
 
-<categoryId>3</categoryId>
+<categoryId>2</categoryId>
 
-<set-ids>s2</set-ids>
+<set-ids>s1</set-ids>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
 
 <description>
-Споры об определении места жительства ребенка. Защита интересов родителей и несовершеннолетних детей.
+Определение места жительства ребенка через суд. Представительство по семейным спорам.
 </description>
 
 <adult>false</adult>
@@ -388,62 +244,22 @@
 <expiry>P5Y</expiry>
 
 <param name="Рейтинг">5.0</param>
-
 <param name="Число отзывов">4</param>
-
 <param name="Годы опыта">10</param>
-
 <param name="Регион">Тульская область</param>
+<param name="Конверсия">1.935</param>
 
-<param name="Конверсия">1.0</param>
+<param name="Работа по договору">да</param>
+<param name="Наличный расчет">да</param>
+<param name="Безналичный расчет">да</param>
+<param name="Выполняется удаленно">да</param>
 
 </offer>
 
 
+<offer id="family006">
 
-<offer id="sem006">
-
-<name>Александр Ильин</name>
-
-<url>https://tula-jurist.ru/opredelenie-poryadka-obscheniya-s-rebenkom</url>
-
-<price from="true">1000</price>
-
-<currencyId>RUR</currencyId>
-
-<sales_notes>цена договорная</sales_notes>
-
-<categoryId>3</categoryId>
-
-<set-ids>s2</set-ids>
-
-<picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<description>
-Определение порядка общения с ребенком через суд. Подготовка документов и юридическое сопровождение.
-</description>
-
-<adult>false</adult>
-
-<expiry>P5Y</expiry>
-
-<param name="Рейтинг">5.0</param>
-
-<param name="Число отзывов">4</param>
-
-<param name="Годы опыта">10</param>
-
-<param name="Регион">Тульская область</param>
-
-<param name="Конверсия">1.0</param>
-
-</offer>
-
-
-
-<offer id="sem007">
-
-<name>Александр Ильин</name>
+<name>Тула Юрист</name>
 
 <url>https://tula-jurist.ru/ustanovlenie-otcovstva</url>
 
@@ -453,14 +269,14 @@
 
 <sales_notes>цена договорная</sales_notes>
 
-<categoryId>3</categoryId>
+<categoryId>2</categoryId>
 
-<set-ids>s2</set-ids>
+<set-ids>s1</set-ids>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
 
 <description>
-Установление отцовства в судебном порядке. Подготовка заявления и защита интересов клиента.
+Установление отцовства в судебном порядке. Подготовка документов и представительство в суде.
 </description>
 
 <adult>false</adult>
@@ -468,22 +284,22 @@
 <expiry>P5Y</expiry>
 
 <param name="Рейтинг">5.0</param>
-
 <param name="Число отзывов">4</param>
-
 <param name="Годы опыта">10</param>
-
 <param name="Регион">Тульская область</param>
+<param name="Конверсия">1.935</param>
 
-<param name="Конверсия">1.0</param>
+<param name="Работа по договору">да</param>
+<param name="Наличный расчет">да</param>
+<param name="Безналичный расчет">да</param>
+<param name="Выполняется удаленно">да</param>
 
 </offer>
 
 
+<offer id="inheritance001">
 
-<offer id="nas001">
-
-<name>Александр Ильин</name>
+<name>Тула Юрист</name>
 
 <url>https://tula-jurist.ru/nasledstvo</url>
 
@@ -493,14 +309,14 @@
 
 <sales_notes>цена договорная</sales_notes>
 
-<categoryId>4</categoryId>
+<categoryId>3</categoryId>
 
-<set-ids>s3</set-ids>
+<set-ids>s2</set-ids>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
 
 <description>
-Юрист по наследственным спорам. Помощь при принятии наследства, восстановлении сроков и оспаривании завещаний.
+Юрист по наследственным спорам. Оформление наследства, восстановление сроков, споры между наследниками.
 </description>
 
 <adult>false</adult>
@@ -508,18 +324,22 @@
 <expiry>P5Y</expiry>
 
 <param name="Рейтинг">5.0</param>
-
 <param name="Число отзывов">4</param>
-
 <param name="Годы опыта">10</param>
-
 <param name="Регион">Тульская область</param>
+<param name="Конверсия">1.935</param>
 
-<param name="Конверсия">1.0</param>
+<param name="Работа по договору">да</param>
+<param name="Наличный расчет">да</param>
+<param name="Безналичный расчет">да</param>
+<param name="Выполняется удаленно">да</param>
 
-</offer><offer id="nas002">
+</offer>
 
-<name>Александр Ильин</name>
+
+<offer id="inheritance002">
+
+<name>Тула Юрист</name>
 
 <url>https://tula-jurist.ru/prinyatie-nasledstva-v-tule</url>
 
@@ -529,14 +349,14 @@
 
 <sales_notes>цена договорная</sales_notes>
 
-<categoryId>4</categoryId>
+<categoryId>3</categoryId>
 
-<set-ids>s3</set-ids>
+<set-ids>s2</set-ids>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
 
 <description>
-Принятие наследства. Юридическая помощь наследникам, подготовка документов и сопровождение наследственных дел.
+Принятие наследства. Помощь юриста при оформлении наследственных прав.
 </description>
 
 <adult>false</adult>
@@ -547,14 +367,19 @@
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тульская область</param>
-<param name="Конверсия">1.0</param>
+<param name="Конверсия">1.935</param>
+
+<param name="Работа по договору">да</param>
+<param name="Наличный расчет">да</param>
+<param name="Безналичный расчет">да</param>
+<param name="Выполняется удаленно">да</param>
 
 </offer>
 
 
-<offer id="nas003">
+<offer id="inheritance003">
 
-<name>Александр Ильин</name>
+<name>Тула Юрист</name>
 
 <url>https://tula-jurist.ru/vosstanovlenie-sroka-prinyatiya-nasledstva</url>
 
@@ -564,14 +389,14 @@
 
 <sales_notes>цена договорная</sales_notes>
 
-<categoryId>4</categoryId>
+<categoryId>3</categoryId>
 
-<set-ids>s3</set-ids>
+<set-ids>s2</set-ids>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
 
 <description>
-Восстановление срока принятия наследства через суд. Подготовка заявления и защита интересов наследников.
+Восстановление срока принятия наследства через суд. Подготовка заявления и сопровождение дела.
 </description>
 
 <adult>false</adult>
@@ -582,84 +407,16 @@
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тульская область</param>
-<param name="Конверсия">1.0</param>
+<param name="Конверсия">1.935</param>
 
-</offer>
+<param name="Работа по договору">да</param>
+<param name="Наличный расчет">да</param>
+<param name="Безналичный расчет">да</param>
+<param name="Выполняется удаленно">да</param>
 
+</offer><offer id="housing001">
 
-<offer id="nas004">
-
-<name>Александр Ильин</name>
-
-<url>https://tula-jurist.ru/osparivanie-zavescaniya</url>
-
-<price from="true">1000</price>
-
-<currencyId>RUR</currencyId>
-
-<sales_notes>цена договорная</sales_notes>
-
-<categoryId>4</categoryId>
-
-<set-ids>s3</set-ids>
-
-<picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<description>
-Оспаривание завещания в судебном порядке. Анализ документов, подготовка иска и представление интересов.
-</description>
-
-<adult>false</adult>
-
-<expiry>P5Y</expiry>
-
-<param name="Рейтинг">5.0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">1.0</param>
-
-</offer>
-
-
-<offer id="nas005">
-
-<name>Александр Ильин</name>
-
-<url>https://tula-jurist.ru/konsultaciya-po-voprosam-nasledstva</url>
-
-<price from="true">1000</price>
-
-<currencyId>RUR</currencyId>
-
-<sales_notes>цена договорная</sales_notes>
-
-<categoryId>4</categoryId>
-
-<set-ids>s3</set-ids>
-
-<picture>https://tula-jurist.ru/favicon.ico</picture>
-
-<description>
-Консультация по вопросам наследства. Разъяснение порядка оформления наследственных прав и возможных способов защиты.
-</description>
-
-<adult>false</adult>
-
-<expiry>P5Y</expiry>
-
-<param name="Рейтинг">5.0</param>
-<param name="Число отзывов">4</param>
-<param name="Годы опыта">10</param>
-<param name="Регион">Тульская область</param>
-<param name="Конверсия">1.0</param>
-
-</offer>
-
-
-<offer id="zh001">
-
-<name>Александр Ильин</name>
+<name>Тула Юрист</name>
 
 <url>https://tula-jurist.ru/zhilischnye-spory</url>
 
@@ -669,14 +426,14 @@
 
 <sales_notes>цена договорная</sales_notes>
 
-<categoryId>5</categoryId>
+<categoryId>4</categoryId>
 
-<set-ids>s4</set-ids>
+<set-ids>s3</set-ids>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
 
 <description>
-Жилищные споры. Защита прав собственников и нанимателей жилья, судебное сопровождение.
+Жилищные споры. Защита прав собственников и нанимателей жилья, представительство в суде.
 </description>
 
 <adult>false</adult>
@@ -687,14 +444,19 @@
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тульская область</param>
-<param name="Конверсия">1.0</param>
+<param name="Конверсия">1.935</param>
+
+<param name="Работа по договору">да</param>
+<param name="Наличный расчет">да</param>
+<param name="Безналичный расчет">да</param>
+<param name="Выполняется удаленно">да</param>
 
 </offer>
 
 
-<offer id="zh002">
+<offer id="housing002">
 
-<name>Александр Ильин</name>
+<name>Тула Юрист</name>
 
 <url>https://tula-jurist.ru/priznanie-prava-sobstvennosti</url>
 
@@ -704,14 +466,14 @@
 
 <sales_notes>цена договорная</sales_notes>
 
-<categoryId>5</categoryId>
+<categoryId>4</categoryId>
 
-<set-ids>s4</set-ids>
+<set-ids>s3</set-ids>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
 
 <description>
-Признание права собственности через суд. Подготовка документов и защита интересов собственников.
+Признание права собственности через суд. Подготовка документов и защита интересов клиента.
 </description>
 
 <adult>false</adult>
@@ -722,14 +484,139 @@
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тульская область</param>
-<param name="Конверсия">1.0</param>
+<param name="Конверсия">1.935</param>
+
+<param name="Работа по договору">да</param>
+<param name="Наличный расчет">да</param>
+<param name="Безналичный расчет">да</param>
+<param name="Выполняется удаленно">да</param>
 
 </offer>
 
 
-<offer id="doc001">
+<offer id="housing003">
 
-<name>Александр Ильин</name>
+<name>Тула Юрист</name>
+
+<url>https://tula-jurist.ru/vypiska-iz-kvartiry-cherez-sud</url>
+
+<price from="true">1000</price>
+
+<currencyId>RUR</currencyId>
+
+<sales_notes>цена договорная</sales_notes>
+
+<categoryId>4</categoryId>
+
+<set-ids>s3</set-ids>
+
+<picture>https://tula-jurist.ru/favicon.ico</picture>
+
+<description>
+Выписка из квартиры через суд. Снятие граждан с регистрационного учета.
+</description>
+
+<adult>false</adult>
+
+<expiry>P5Y</expiry>
+
+<param name="Рейтинг">5.0</param>
+<param name="Число отзывов">4</param>
+<param name="Годы опыта">10</param>
+<param name="Регион">Тульская область</param>
+<param name="Конверсия">1.935</param>
+
+<param name="Работа по договору">да</param>
+<param name="Наличный расчет">да</param>
+<param name="Безналичный расчет">да</param>
+<param name="Выполняется удаленно">да</param>
+
+</offer>
+
+
+<offer id="realestate001">
+
+<name>Тула Юрист</name>
+
+<url>https://tula-jurist.ru/soprovozhdenie-sdelok-s-nedvizhimostiy</url>
+
+<price from="true">1000</price>
+
+<currencyId>RUR</currencyId>
+
+<sales_notes>цена договорная</sales_notes>
+
+<categoryId>5</categoryId>
+
+<set-ids>s3</set-ids>
+
+<picture>https://tula-jurist.ru/favicon.ico</picture>
+
+<description>
+Юридическое сопровождение сделок с недвижимостью. Проверка документов и защита интересов.
+</description>
+
+<adult>false</adult>
+
+<expiry>P5Y</expiry>
+
+<param name="Рейтинг">5.0</param>
+<param name="Число отзывов">4</param>
+<param name="Годы опыта">10</param>
+<param name="Регион">Тульская область</param>
+<param name="Конверсия">1.935</param>
+
+<param name="Работа по договору">да</param>
+<param name="Наличный расчет">да</param>
+<param name="Безналичный расчет">да</param>
+<param name="Выполняется удаленно">да</param>
+
+</offer>
+
+
+<offer id="consumer001">
+
+<name>Тула Юрист</name>
+
+<url>https://tula-jurist.ru/zascita-prav-potrebitelei</url>
+
+<price from="true">1000</price>
+
+<currencyId>RUR</currencyId>
+
+<sales_notes>цена договорная</sales_notes>
+
+<categoryId>6</categoryId>
+
+<set-ids>s4</set-ids>
+
+<picture>https://tula-jurist.ru/favicon.ico</picture>
+
+<description>
+Защита прав потребителей. Возврат денежных средств, споры с продавцами и исполнителями услуг.
+</description>
+
+<adult>false</adult>
+
+<expiry>P5Y</expiry>
+
+<param name="Рейтинг">5.0</param>
+<param name="Число отзывов">4</param>
+<param name="Годы опыта">10</param>
+<param name="Регион">Тульская область</param>
+<param name="Конверсия">1.935</param>
+
+<param name="Работа по договору">да</param>
+<param name="Наличный расчет">да</param>
+<param name="Безналичный расчет">да</param>
+<param name="Выполняется удаленно">да</param>
+
+</offer>
+
+
+<offer id="docs001">
+
+<name>Тула Юрист</name>
 
 <url>https://tula-jurist.ru/sostavlenie-zhalob</url>
 
@@ -739,14 +626,14 @@
 
 <sales_notes>цена договорная</sales_notes>
 
-<categoryId>8</categoryId>
+<categoryId>7</categoryId>
 
-<set-ids>s4</set-ids>
+<set-ids>s5</set-ids>
 
 <picture>https://tula-jurist.ru/favicon.ico</picture>
 
 <description>
-Составление юридических жалоб, заявлений и обращений. Подготовка документов с учетом требований законодательства.
+Составление исков, заявлений и жалоб. Подготовка юридических документов.
 </description>
 
 <adult>false</adult>
@@ -757,7 +644,12 @@
 <param name="Число отзывов">4</param>
 <param name="Годы опыта">10</param>
 <param name="Регион">Тульская область</param>
-<param name="Конверсия">1.0</param>
+<param name="Конверсия">1.935</param>
+
+<param name="Работа по договору">да</param>
+<param name="Наличный расчет">да</param>
+<param name="Безналичный расчет">да</param>
+<param name="Выполняется удаленно">да</param>
 
 </offer>
 
