@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<yml_catalog date="2026-07-14 14:00">
+<yml_catalog date="2026-07-14 16:00">
   <shop>
     <name>Тула Юрист</name>
     <company>Тула Юрист</company>
@@ -10,19 +10,10 @@
       <currency id="RUR" rate="1" />
     </currencies>
 
-    <!-- Категории услуг -->
+    <!-- Категории услуг (согласно документации, корневая категория должна быть "Исполнитель") -->
     <categories>
-      <category id="1">Юридические услуги</category>
-      <category id="2" parentId="1">Защита прав потребителей</category>
-      <category id="3" parentId="1">Наследственные дела</category>
-      <category id="4" parentId="1">Семейные споры</category>
-      <category id="5" parentId="1">Жилищные споры</category>
-      <category id="6" parentId="1">Уголовные дела (УДО, апелляция, кассация)</category>
-      <category id="7" parentId="1">Составление документов</category>
-      <category id="8" parentId="1">Земельные споры</category>
-      <category id="9" parentId="1">Раздел имущества</category>
-      <category id="10" parentId="1">Алименты</category>
-      <category id="11" parentId="1">Сопровождение сделок с недвижимостью</category>
+      <category id="1">Исполнитель</category>
+      <category id="2" parentId="1">Юристы</category>
     </categories>
 
     <!-- Наборы (группировка услуг) -->
@@ -38,7 +29,7 @@
 
       <!-- 1. Защита прав потребителей -->
       <offer id="usl-1">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Защита прав потребителей</name>
         <url>https://tula-jurist.ru/zascita-prav-potrebitelei</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
@@ -56,12 +47,12 @@
 
       <!-- 2. Условно-досрочное освобождение (УДО) -->
       <offer id="usl-2">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Условно-досрочное освобождение (УДО)</name>
         <url>https://tula-jurist.ru/udo</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>6</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>Условно-досрочное освобождение (УДО)</description>
@@ -74,12 +65,12 @@
 
       <!-- 3. Определение порядка общения с ребенком -->
       <offer id="usl-3">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Определение порядка общения с ребенком</name>
         <url>https://tula-jurist.ru/opredelenie-poryadka-obscheniya-s-rebenkom</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>4</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>Определение порядка общения с ребенком</description>
@@ -92,12 +83,12 @@
 
       <!-- 4. Наследство -->
       <offer id="usl-4">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Наследство</name>
         <url>https://tula-jurist.ru/nasledstvo</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>3</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>Наследство</description>
@@ -110,12 +101,12 @@
 
       <!-- 5. Составление жалоб -->
       <offer id="usl-5">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Составление жалоб</name>
         <url>https://tula-jurist.ru/sostavlenie-zhalob</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>7</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>Составление жалоб</description>
@@ -128,12 +119,12 @@
 
       <!-- 6. Жилищные споры -->
       <offer id="usl-6">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Жилищные споры</name>
         <url>https://tula-jurist.ru/zhilischnye-spory</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>5</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>Жилищные споры</description>
@@ -146,12 +137,12 @@
 
       <!-- 7. Признание права собственности -->
       <offer id="usl-7">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Признание права собственности</name>
         <url>https://tula-jurist.ru/priznanie-prava-sobstvennosti</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>5</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>Признание права собственности</description>
@@ -164,7 +155,7 @@
 
       <!-- 8. Возврат средств -->
       <offer id="usl-8">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Возврат средств</name>
         <url>https://tula-jurist.ru/vozvrat-sredstv</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
@@ -182,12 +173,12 @@
 
       <!-- 9. Принятие наследства в Туле -->
       <offer id="usl-9">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Принятие наследства в Туле</name>
         <url>https://tula-jurist.ru/prinyatie-nasledstva-v-tule</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>3</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>Принятие наследства в Туле</description>
@@ -200,12 +191,12 @@
 
       <!-- 10. Установление отцовства -->
       <offer id="usl-10">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Установление отцовства</name>
         <url>https://tula-jurist.ru/ustanovlenie-otcovstva</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>4</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>Установление отцовства</description>
@@ -218,12 +209,12 @@
 
       <!-- 11. УДО – апелляция -->
       <offer id="usl-11">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — УДО – апелляция</name>
         <url>https://tula-jurist.ru/udo-apellyaciya</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>6</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>УДО – апелляция</description>
@@ -236,12 +227,12 @@
 
       <!-- 12. Составление жалоб, исков, заявлений -->
       <offer id="usl-12">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Составление жалоб, исков, заявлений</name>
         <url>https://tula-jurist.ru/sostavlenie-zhalob-iskov-zayavlenij</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>7</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>Составление жалоб, исков, заявлений</description>
@@ -254,12 +245,12 @@
 
       <!-- 13. УДО – кассация -->
       <offer id="usl-13">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — УДО – кассация</name>
         <url>https://tula-jurist.ru/udo-kassaciya</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>6</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>УДО – кассация</description>
@@ -272,12 +263,12 @@
 
       <!-- 14. Снятие граждан с регистрации -->
       <offer id="usl-14">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Снятие граждан с регистрации</name>
         <url>https://tula-jurist.ru/snyatie-grazhdan-s-registracii</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>5</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>Снятие граждан с регистрации</description>
@@ -290,12 +281,12 @@
 
       <!-- 15. Составление заявлений и ходатайств -->
       <offer id="usl-15">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Составление заявлений и ходатайств</name>
         <url>https://tula-jurist.ru/sostavlenie-zayavlenij-i-hodatajstv</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>7</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>Составление заявлений и ходатайств</description>
@@ -308,12 +299,12 @@
 
       <!-- 16. Расторжение брака -->
       <offer id="usl-16">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Расторжение брака</name>
         <url>https://tula-jurist.ru/rastorzhenie-braka</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>4</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>Расторжение брака</description>
@@ -326,7 +317,7 @@
 
       <!-- 17. Составление исков и претензий по ЗПП -->
       <offer id="usl-17">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Составление исков и претензий по ЗПП</name>
         <url>https://tula-jurist.ru/sostavlenie-iskov-i-pretenziy-po-zpp</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
@@ -344,12 +335,12 @@
 
       <!-- 18. Восстановление срока принятия наследства -->
       <offer id="usl-18">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Восстановление срока принятия наследства</name>
         <url>https://tula-jurist.ru/vosstanovlenie-sroka-prinyatiya-nasledstva</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>3</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>Восстановление срока принятия наследства</description>
@@ -362,7 +353,7 @@
 
       <!-- 19. Споры с продавцами и исполнителями услуг -->
       <offer id="usl-19">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Споры с продавцами и исполнителями услуг</name>
         <url>https://tula-jurist.ru/spory-s-prodavcami-i-ispolnitelyami-uslug</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
@@ -380,12 +371,12 @@
 
       <!-- 20. Сопровождение сделок с недвижимостью -->
       <offer id="usl-20">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Сопровождение сделок с недвижимостью</name>
         <url>https://tula-jurist.ru/soprovozhdenie-sdelok-s-nedvizhimostiy</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>11</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>Сопровождение сделок с недвижимостью</description>
@@ -398,12 +389,12 @@
 
       <!-- 21. Определение места жительства ребенка -->
       <offer id="usl-21">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Определение места жительства ребенка</name>
         <url>https://tula-jurist.ru/opredelenie-mesta-zhitelstva-rebenka</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>4</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>Определение места жительства ребенка</description>
@@ -416,12 +407,12 @@
 
       <!-- 22. Составление исков -->
       <offer id="usl-22">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Составление исков</name>
         <url>https://tula-jurist.ru/sostavlenie-iskov</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>7</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>Составление исков</description>
@@ -434,12 +425,12 @@
 
       <!-- 23. Оспаривание завещания -->
       <offer id="usl-23">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Оспаривание завещания</name>
         <url>https://tula-jurist.ru/osparivanie-zavescaniya</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>3</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>Оспаривание завещания</description>
@@ -452,12 +443,12 @@
 
       <!-- 24. Алименты -->
       <offer id="usl-24">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Алименты</name>
         <url>https://tula-jurist.ru/alimenty</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>10</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>Алименты</description>
@@ -470,12 +461,12 @@
 
       <!-- 25. Консультация по вопросам наследства -->
       <offer id="usl-25">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Консультация по вопросам наследства</name>
         <url>https://tula-jurist.ru/konsultaciya-po-voprosam-nasledstva</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>3</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>Консультация по вопросам наследства</description>
@@ -488,12 +479,12 @@
 
       <!-- 26. Земельные споры -->
       <offer id="usl-26">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Земельные споры</name>
         <url>https://tula-jurist.ru/zemelnye-spory</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>8</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>Земельные споры</description>
@@ -506,12 +497,12 @@
 
       <!-- 27. Составление претензий -->
       <offer id="usl-27">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Составление претензий</name>
         <url>https://tula-jurist.ru/sostavlenie-pretenzij</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>7</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>Составление претензий</description>
@@ -524,12 +515,12 @@
 
       <!-- 28. Раздел совместно нажитого имущества -->
       <offer id="usl-28">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Раздел совместно нажитого имущества</name>
         <url>https://tula-jurist.ru/razdel-sovmestno-nazhitogo-imuscestva</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>9</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>Раздел совместно нажитого имущества</description>
@@ -542,12 +533,12 @@
 
       <!-- 29. Семейные споры -->
       <offer id="usl-29">
-        <name>Александр Ильин</name>
+        <name>Александр Ильин — Семейные споры</name>
         <url>https://tula-jurist.ru/semeinye-spory</url>
         <price from="true">1000</price>
         <currencyId>RUR</currencyId>
         <sales_notes>от 1000 рублей</sales_notes>
-        <categoryId>4</categoryId>
+        <categoryId>2</categoryId>
         <set-ids>s1</set-ids>
         <picture>https://tula-jurist.ru/favicon.ico</picture>
         <description>Семейные споры</description>
